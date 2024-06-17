@@ -6,6 +6,11 @@
 body{
     background-color: #E5E4F7;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  
 }
 
 header{
@@ -18,6 +23,13 @@ header{
     align-items: center;
     top: 0px;
     left: 0px;
+
+}
+main{
+    min-height: calc(100vh - 80px);
+    max-width: 1300px;
+    width: calc(100% - 87px);
+    margin-left: 87px;
 }
 
 .logo{
@@ -26,21 +38,26 @@ header{
     padding: 10px;
     display: flex;
 }
+
 .navegacao{
     display: flex;
 }
+
 .lista-navegacao{
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
+
 .ancora-navegacao{
     text-decoration: none;
     color: #2028f2;
 }
+
 .itens-navagacao{
     display: flex;
 }
+
 .linha-azul{
     background-color: #2028f2;
     width: 77px;
@@ -50,4 +67,12 @@ header{
     position: absolute;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80vh, 0% 100%);
     
+}
+
+#colegio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
 }
