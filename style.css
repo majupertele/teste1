@@ -91,3 +91,19 @@ main{
     gap: 30px;
     
 }
+
+#colegio.container-img{
+width: 1000px;
+
+}
+#colegio.container-img img{
+    width: 100%;
+    height: auto;
+}
+#colegio.container-txt{
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+}
