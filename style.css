@@ -119,9 +119,10 @@ width: 1000px;
 #turma .title{
     font-family: Poppins;
     font-size: 38px;
-    line-height: 58px;
-    font-weight: 700;
+    line-height: 48px;
+    font-weight: bold;
     text-align: left;
+    padding: 0 0 20px;
 }
 
 #turma .container{
@@ -141,8 +142,8 @@ width: 80%;
 }
 #turma .container-txt{
     font-family: Poppins; 
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 28px;
     font-weight: 400;
     text-align: justify;
     width: 100%;
